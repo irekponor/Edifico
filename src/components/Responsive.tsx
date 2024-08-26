@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineHome, AiOutlineMenu } from "react-icons/ai";
-import { BsBuildings } from "react-icons/bs";
-import { FiBookOpen, FiMail } from "react-icons/fi";
+import { BsBuildings, BsInfoLg } from "react-icons/bs";
+import { FiMail } from "react-icons/fi";
+import { GrContact } from "react-icons/gr";
 
 const Responsive = () => {
   const [nav, setNav] = useState(false);
@@ -37,9 +38,9 @@ const Responsive = () => {
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
              bg-[#87ceeb] p-3 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
             >
-              <FiBookOpen className="size-6" />
+              <BsInfoLg className="size-6" />
               <span className="pl-4 font-semibold font-marquis text-[18px]">
-                About
+                Info
               </span>
             </a>
             <a
@@ -67,7 +68,7 @@ const Responsive = () => {
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
              bg-[#87ceeb] p-3 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
             >
-              <AiOutlineHome className="size-6" />
+              <GrContact className="size-6" />
               <span className="pl-4 font-semibold font-marquis text-[18px]">
                 Testimonials
               </span>
