@@ -6,11 +6,11 @@ export default {
       // add custom values
       colors: {
         "custom-color": "#000080",
-        fontFamily: {
-          marquis: ["Roboto Slab", "serif"],
-          name: ["Kurale", "serif"],
-          title: ["Open Sans", "sans-serif"],
-        },
+      },
+      fontFamily: {
+        marquis: ["Roboto Slab", "serif"],
+        name: ["Kurale", "serif"],
+        title: ["Open Sans", "sans-serif"],
       },
     },
   },
