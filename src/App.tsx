@@ -4,8 +4,8 @@ import Responsive from "./components/Responsive";
 function App() {
   return (
     <div>
-      <Home />
       <Responsive />
+      <Home />
     </div>
   );
 }
