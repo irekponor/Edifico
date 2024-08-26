@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineHome, AiOutlineMenu } from "react-icons/ai";
-import { BsBuildings, BsInfoLg } from "react-icons/bs";
-import { FaGraduationCap } from "react-icons/fa";
+import { BiSearch } from "react-icons/bi";
+import { BsInfoLg } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
-import { GrContact } from "react-icons/gr";
+import { LuNewspaper } from "react-icons/lu";
+import { RiGraduationCapLine } from "react-icons/ri";
 
 const Responsive = () => {
   const [nav, setNav] = useState(false);
@@ -54,9 +55,9 @@ const Responsive = () => {
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
              bg-custom-color/45 p-3 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
             >
-              <FaGraduationCap className="size-6" />
+              <BiSearch className="size-6" />
               <span className="pl-4 font-semibold font-marquis text-[18px]">
-                Program
+                Research
               </span>
             </a>
             <a
@@ -65,9 +66,9 @@ const Responsive = () => {
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
              bg-custom-color/45 p-3 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
             >
-              <BsBuildings className="size-6" />
+              <LuNewspaper className="size-6" />
               <span className="pl-4 font-semibold font-marquis text-[18px]">
-                Faculty
+                News & Events
               </span>
             </a>
             <a
@@ -76,9 +77,9 @@ const Responsive = () => {
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
              bg-custom-color/45 p-3 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
             >
-              <GrContact className="size-6" />
+              <RiGraduationCapLine className="size-6" />
               <span className="pl-4 font-semibold font-marquis text-[18px]">
-                Testimonials
+                Admissions
               </span>
             </a>
             <a
