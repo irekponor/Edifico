@@ -44,18 +44,15 @@ const Home = () => {
                 >
                   News & Events
                 </a>
-                <a href="">
-                  <DropdownButton
-                    id="dropdown-item-button"
-                    className="no-underline text-white p-3 justify-between font-semibold font-title text-[18px]"
-                    title="Program"
-                  >
-                    <Dropdown.ItemText>Dropdown item text</Dropdown.ItemText>
-                    <Dropdown.Item as="button">Action</Dropdown.Item>
-                    <Dropdown.Item as="button">Another action</Dropdown.Item>
-                    <Dropdown.Item as="button">Something else</Dropdown.Item>
-                  </DropdownButton>
-                </a>
+                <DropdownButton
+                  id="dropdown-item-button"
+                  className="p-3 justify-between font-semibold font-title text-[18px]"
+                  title="Program"
+                >
+                  <Dropdown.Item as="button">Undergraduate</Dropdown.Item>
+                  <Dropdown.Item as="button">Postgraduate</Dropdown.Item>
+                  <Dropdown.Item as="button">Direct Entry (D.E)</Dropdown.Item>
+                </DropdownButton>
                 <a
                   href=""
                   className="no-underline text-white p-3 justify-between font-semibold font-title text-[18px]"
