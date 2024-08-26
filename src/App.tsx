@@ -1,7 +1,13 @@
+import Home from "./components/Home";
 import Responsive from "./components/Responsive";
 
 function App() {
-  return <Responsive />;
+  return (
+    <div>
+      <Home />
+      <Responsive />
+    </div>
+  );
 }
 
 export default App;
