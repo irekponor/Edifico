@@ -34,19 +34,19 @@ const Home = () => {
                   href=""
                   className="no-underline text-white p-3 justify-between font-semibold font-title text-[18px]"
                 >
-                  Program
+                  Research
                 </a>
                 <a
                   href=""
                   className="no-underline text-white p-3 justify-between font-semibold font-title text-[18px]"
                 >
-                  Faculty
+                  News & Events
                 </a>
                 <a
                   href=""
                   className="no-underline text-white p-3 justify-between font-semibold font-title text-[18px]"
                 >
-                  Testimonial
+                  Admission
                 </a>
                 <a
                   href=""
