@@ -14,12 +14,14 @@ const Responsive = () => {
   return (
     <div>
       <AiOutlineMenu
+        size={20}
         onClick={handleNav}
-        className="text-black absolute top-4 right-4 z-[99] md:hidden"
+        className="text-white absolute top-4 right-4 z-[99] md:hidden"
       />
       {nav ? (
         <div>
           <AiOutlineClose
+            size={20}
             onClick={handleNav}
             className="text-black absolute top-4 right-4 z-[99] md:hidden"
           />
