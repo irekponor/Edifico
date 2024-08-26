@@ -27,6 +27,7 @@ const Responsive = () => {
           />
           <div className="md:hidden fixed w-full h-screen bg-white flex flex-col justify-center items-center z-20">
             <a
+              onClick={handleNav}
               href="#home"
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
              bg-custom-color/45 p-3 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
@@ -37,6 +38,7 @@ const Responsive = () => {
               </span>
             </a>
             <a
+              onClick={handleNav}
               href="#home"
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
              bg-custom-color/45 p-3 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
@@ -47,6 +49,7 @@ const Responsive = () => {
               </span>
             </a>
             <a
+              onClick={handleNav}
               href="#home"
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
              bg-custom-color/45 p-3 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
@@ -57,6 +60,7 @@ const Responsive = () => {
               </span>
             </a>
             <a
+              onClick={handleNav}
               href="#home"
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
              bg-custom-color/45 p-3 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
@@ -67,6 +71,7 @@ const Responsive = () => {
               </span>
             </a>
             <a
+              onClick={handleNav}
               href="#home"
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
              bg-custom-color/45 p-3 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
@@ -77,6 +82,7 @@ const Responsive = () => {
               </span>
             </a>
             <a
+              onClick={handleNav}
               href="#home"
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
              bg-custom-color/45 p-3 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
