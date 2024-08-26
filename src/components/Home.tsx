@@ -1,3 +1,5 @@
+import Dropdown from "react-bootstrap/Dropdown";
+import DropdownButton from "react-bootstrap/DropdownButton";
 import { FaUserGraduate } from "react-icons/fa6";
 import Hometext from "./Hometext";
 
@@ -17,7 +19,7 @@ const Home = () => {
               <h4 className="font-title text-white pl-2">Edifico</h4>
             </div>
             <div>
-              <div className="mr-14">
+              <div className="mr-14 flex justify-between">
                 <a
                   href="#home"
                   className="no-underline text-white p-3 justify-between font-semibold font-title text-[18px]"
@@ -42,11 +44,17 @@ const Home = () => {
                 >
                   News & Events
                 </a>
-                <a
-                  href=""
-                  className="no-underline text-white p-3 justify-between font-semibold font-title text-[18px]"
-                >
-                  Admission
+                <a href="">
+                  <DropdownButton
+                    id="dropdown-item-button"
+                    className="no-underline text-white p-3 justify-between font-semibold font-title text-[18px]"
+                    title="Program"
+                  >
+                    <Dropdown.ItemText>Dropdown item text</Dropdown.ItemText>
+                    <Dropdown.Item as="button">Action</Dropdown.Item>
+                    <Dropdown.Item as="button">Another action</Dropdown.Item>
+                    <Dropdown.Item as="button">Something else</Dropdown.Item>
+                  </DropdownButton>
                 </a>
                 <a
                   href=""
