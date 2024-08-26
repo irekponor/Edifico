@@ -12,7 +12,7 @@ const Home = () => {
       <div className="w-full absolute h-screen top-0 left-0 bg-custom-color/45">
         <div className="md:block hidden">
           <header className="fixed top-4 z-[20] mx-auto flex w-full items-center justify-between">
-            <div className="flex ml-[14rem] top-4">
+            <div className="flex lg:ml-[14rem] top-4">
               <FaUserGraduate className="text-white size-7" />
               <h4 className="font-title text-white pl-2">Edifico</h4>
             </div>
