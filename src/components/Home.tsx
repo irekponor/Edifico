@@ -1,4 +1,5 @@
 import { FaUserGraduate } from "react-icons/fa6";
+import Hometext from "./Hometext";
 
 const Home = () => {
   return (
@@ -57,6 +58,7 @@ const Home = () => {
             </div>
           </header>
         </div>
+        <Hometext />
       </div>
     </div>
   );
