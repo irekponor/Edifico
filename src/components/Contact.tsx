@@ -1,7 +1,6 @@
 import { BsTwitter } from "react-icons/bs";
 import { FaFacebook, FaLinkedin, FaTiktok } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
-import { MdCopyright } from "react-icons/md";
 import { SiInstagram } from "react-icons/si";
 
 const Contact = () => {
@@ -46,38 +45,25 @@ const Contact = () => {
           </p>
         </div>
         <div>
-          <h3 className="font-marquis text-custom-color mb-3">Quick Links</h3>
+          <h3 className="font-marquis text-custom-color mb-3">Services</h3>
           <p className="font-name text-custom-color">Admission</p>
-          <p className="font-name text-custom-color">Records</p>
-          <p className="font-name text-custom-color">Enterprises</p>
-          <p className="font-name text-custom-color">Staff Intranet</p>
-          <p className="font-name text-custom-color">Support Us</p>
-          <p className="font-name text-custom-color">
-            School Of Advanced Study
-          </p>
+          <p className="font-name text-custom-color">Libraries</p>
+          <p className="font-name text-custom-color">Halls in Edifico</p>
+          <p className="font-name text-custom-color">Venues hire</p>
+          <p className="font-name text-custom-color">Request a transcript</p>
+          <p className="font-name text-custom-color">The career's group</p>
         </div>
         <div>
-          <h3 className="font-marquis text-custom-color mb-3">Quick Links</h3>
-          <p className="font-name text-custom-color">Admission</p>
-          <p className="font-name text-custom-color">Records</p>
-          <p className="font-name text-custom-color">Enterprises</p>
-          <p className="font-name text-custom-color">Staff Intranet</p>
-          <p className="font-name text-custom-color">Support Us</p>
+          <h3 className="font-marquis text-custom-color mb-3">Get In Touch</h3>
+          <p className="font-name text-custom-color">Contact Us</p>
+          <p className="font-name text-custom-color">Vancancies (Careers)</p>
+          <p className="font-name text-custom-color">Job Application</p>
           <p className="font-name text-custom-color">
-            School Of Advanced Study
+            Prospective undergraduates
           </p>
         </div>
       </div>
       <p className="text-black text-center items-center font-marquis pt-10">
-        <a
-          href=""
-          className="text-black text-center items-center font-marquis pt-10"
-        >
-          <MdCopyright
-            className="text-center items-center text-black"
-            size={20}
-          />
-        </a>
         2024 Edifico University
       </p>
     </div>
