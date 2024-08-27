@@ -26,32 +26,68 @@ const Home = () => {
                 >
                   Home
                 </a>
-                <a
-                  href=""
-                  className="no-underline text-white p-3 justify-between font-semibold font-title text-[18px]"
+                <DropdownButton
+                  id="dropdown-item-button"
+                  className="p-3 justify-between font-semibold font-title text-[18px]"
+                  title="Info"
                 >
-                  Info
-                </a>
+                  <Dropdown.Item as="button" className="font-name">
+                    History
+                  </Dropdown.Item>
+                  <Dropdown.Item as="button" className="font-name">
+                    Our Awards
+                  </Dropdown.Item>
+                  <Dropdown.Item as="button" className="font-name">
+                    Alumni's
+                  </Dropdown.Item>
+                  <Dropdown.Item as="button" className="font-name">
+                    VC's Vision
+                  </Dropdown.Item>
+                </DropdownButton>
                 <a
                   href=""
                   className="no-underline text-white p-3 justify-between font-semibold font-title text-[18px]"
                 >
                   Research
                 </a>
-                <a
-                  href=""
-                  className="no-underline text-white p-3 justify-between font-semibold font-title text-[18px]"
-                >
-                  News & Events
-                </a>
                 <DropdownButton
                   id="dropdown-item-button"
                   className="p-3 justify-between font-semibold font-title text-[18px]"
-                  title="Program"
+                  title="News & Events"
                 >
-                  <Dropdown.Item as="button">Undergraduate</Dropdown.Item>
-                  <Dropdown.Item as="button">Postgraduate</Dropdown.Item>
-                  <Dropdown.Item as="button">Direct Entry (D.E)</Dropdown.Item>
+                  <Dropdown.Item as="button" className="font-name">
+                    New release for Journalist
+                  </Dropdown.Item>
+                  <Dropdown.Item as="button" className="font-name">
+                    Sport Convention
+                  </Dropdown.Item>
+                  <Dropdown.Item as="button" className="font-name">
+                    Filming in Edifico
+                  </Dropdown.Item>
+                  <Dropdown.Item as="button" className="font-name">
+                    Edifico Profiles
+                  </Dropdown.Item>
+                  <Dropdown.Item as="button" className="font-name">
+                    Campus Calender
+                  </Dropdown.Item>
+                  <Dropdown.Item as="button" className="font-name">
+                    Ongoing Admission
+                  </Dropdown.Item>
+                </DropdownButton>
+                <DropdownButton
+                  id="dropdown-item-button"
+                  className="p-3 justify-between font-semibold font-title text-[18px]"
+                  title="Admission"
+                >
+                  <Dropdown.Item as="button" className="font-name">
+                    Undergraduate
+                  </Dropdown.Item>
+                  <Dropdown.Item as="button" className="font-name">
+                    Postgraduate
+                  </Dropdown.Item>
+                  <Dropdown.Item as="button" className="font-name">
+                    Direct Entry (D.E)
+                  </Dropdown.Item>
                 </DropdownButton>
                 <a
                   href=""
