@@ -1,5 +1,8 @@
-import sport from "../assets/sport.jfif";
+import movie from "../assets/movie.jfif";
 import Abouttext from "./Abouttext";
+import ball from "../assets/ball.jfif";
+import mall from "../assets/mall.jfif";
+import church from "../assets/church.jfif";
 
 const About = () => {
   return (
@@ -11,7 +14,10 @@ const About = () => {
         These are the most visited areas on campus
       </p>
       <div className="pl-16 pr-16 grid gap-16 sm:grid-cols-2">
-        <Abouttext img={sport} />
+        <Abouttext img={movie} title="Fico Theatre" />
+        <Abouttext img={ball} title="Fico Theatre" />
+        <Abouttext img={mall} title="Fico Theatre" />
+        <Abouttext img={church} title="Fico Theatre" />
       </div>
     </div>
   );
