@@ -20,15 +20,15 @@ const Testimonials = () => {
     <div className="pt-20 bg-custom-color">
       <Rank />
       <div className="max-w-[1040px] m-auto md:pl-20 p-4">
-        <h1 className="text-custom-color font-marquis uppercase text-center pt-16 text-[19px]">
+        <h1 className="text-white font-marquis uppercase text-center pt-16 text-[19px]">
           Testimonials
         </h1>
-        <p className="text-custom-color font-name text-center">
+        <p className="text-white pb-6 font-name text-center">
           What our students say
         </p>
         <Slider {...settings}>
           {data.map((d) => (
-            <div className="bg-white h-[450px] rounded-xl">
+            <div className="bg-white h-[550px] rounded-xl">
               <div className="h-56 rounded-t-xl bg-white flex justify-center items-center">
                 <p className="h-44 w-44 rounded-[340px]">{d.img}</p>
               </div>
