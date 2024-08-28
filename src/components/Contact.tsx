@@ -63,9 +63,6 @@ const Contact = () => {
           </p>
         </div>
       </div>
-      <p className="text-black text-center items-center font-marquis pt-10">
-        2024 Edifico University
-      </p>
     </div>
   );
 };
