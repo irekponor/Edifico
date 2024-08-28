@@ -50,35 +50,35 @@ const Testimonials = () => {
 const data = [
   {
     person: `Anita Adarabioro`,
-    degree: `Bsc, Msc`,
+    degree: `B.A, M.A`,
     img: <img src={anita} alt="" />,
     details:
       "I am filled with a mix of sadness and gratitude, knowing I will miss the exceptional education and experiences it provided.",
   },
   {
     person: `John statham`,
-    degree: `Bsc, Msc, Phd`,
+    degree: `B.Sc, M.Sc, Ph.D`,
     img: <img src={john} alt="" />,
     details:
       "The rigorous academic programs at Edufico University prepared me well for my future endeavors, and I am thankful for the opportunity to have studied there.",
   },
   {
     person: `Kofi Kulumaye`,
-    degree: `Phd`,
+    degree: `Ph.D`,
     img: <img src={kofi} alt="" />,
     details:
       "Edufico University commitment to excellence and innovation has equipped me with the skills and knowledge to succeed, and I am proud to call myself an alumnus.",
   },
   {
     person: `Kim-min Jae`,
-    degree: `Msc, Phd`,
+    degree: `M.A, PH.D`,
     img: <img src={kim} alt="" />,
     details:
       "I am reminded of the countless opportunities it provided for growth, exploration, and self-discovery, making my time there truly transformative.",
   },
   {
     person: `Robb Stark`,
-    degree: `Msc, Phd`,
+    degree: `Msc, Ph.d`,
     img: <img src={robb} alt="" />,
     details:
       "Edufico University's vibrant campus life and diverse student body made for an enriching experience, allowing me to connect with peers from various backgrounds and cultures",
