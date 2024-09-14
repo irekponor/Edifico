@@ -11,34 +11,34 @@ const Contact = () => {
           Connect with us
         </h1>
         <div className="max-md:flex">
-          <a href="" className="flex pt-4">
+          <a href="" className="flex pt-4 max-md:pl-3">
             <FaFacebook
               className="text-custom-color cursor-pointer"
               size={20}
             />
           </a>
-          <a href="" className="flex pt-4">
+          <a href="" className="flex pt-4 max-md:pl-3">
             <SiInstagram
               className="text-custom-color cursor-pointer"
               size={20}
             />
           </a>
-          <a href="" className="flex pt-4">
+          <a href="" className="flex pt-4 max-md:pl-3">
             <FaLinkedin
               className="text-custom-color cursor-pointer"
               size={20}
             />
           </a>
-          <a href="" className="flex pt-4">
+          <a href="" className="flex pt-4 max-md:pl-3">
             <IoLogoYoutube
               className="text-custom-color cursor-pointer"
               size={20}
             />
           </a>
-          <a href="" className="flex pt-4">
+          <a href="" className="flex pt-4 max-md:pl-3">
             <BsTwitter className="text-custom-color cursor-pointer" size={20} />
           </a>
-          <a href="" className="flex pt-4">
+          <a href="" className="flex pt-4 max-md:pl-3">
             <FaTiktok className="text-custom-color cursor-pointer" size={20} />
           </a>
         </div>
