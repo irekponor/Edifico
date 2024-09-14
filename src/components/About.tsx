@@ -2,6 +2,7 @@ import movie from "../assets/movie.jfif";
 import Abouttext from "./Abouttext";
 import Abouttext1 from "./Abouttext1";
 import Abouttext2 from "./Abouttext2";
+import Abouttext3 from "./Abouttext3";
 import ball from "../assets/ball.jfif";
 import mall from "../assets/mall.jfif";
 import church from "../assets/church.jfif";
@@ -19,7 +20,7 @@ const About = () => {
         <Abouttext img={movie} title="Fico Theatre" />
         <Abouttext1 img={ball} title1="Fico Sports Center" />
         <Abouttext2 img={mall} title2="Fico Mall" />
-        <Abouttext img={church} title3="Fico Church" />
+        <Abouttext3 img={church} title3="Fico Church" />
       </div>
     </div>
   );
