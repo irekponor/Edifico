@@ -60,14 +60,14 @@ const data = [
     degree: `B.Sc, M.Sc, Ph.D`,
     img: <img src={john} alt="" />,
     details:
-      "The rigorous academic programs at Edufico University prepared me well for my future endeavors, and I am thankful for the opportunity to have studied there.",
+      "The rigorous academic programs at Edifico University prepared me well for my future endeavors, and I am thankful for the opportunity to have studied there.",
   },
   {
     person: `Kofi Kulumaye`,
     degree: `Ph.D`,
     img: <img src={kofi} alt="" />,
     details:
-      "Edufico University commitment to excellence and innovation has equipped me with the skills and knowledge to succeed, and I am proud to call myself an alumnus.",
+      "Edifico University commitment to excellence and innovation has equipped me with the skills and knowledge to succeed, and I am proud to call myself an alumnus.",
   },
   {
     person: `Kim-min Jae`,
@@ -81,7 +81,7 @@ const data = [
     degree: `Msc, Ph.d`,
     img: <img src={robb} alt="" />,
     details:
-      "Edufico University's vibrant campus life and diverse student body made for an enriching experience, allowing me to connect with peers from various backgrounds and cultures",
+      "Edifico University's vibrant campus life and diverse student body made for an enriching experience, allowing me to connect with peers from various backgrounds and cultures",
   },
 ];
 
