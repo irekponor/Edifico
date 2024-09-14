@@ -31,7 +31,7 @@ const Responsive = () => {
               onClick={handleNav}
               href="#home"
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
-             bg-custom-color/45 p-2 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
+             bg-custom-color/45 p-[0.8rem] m-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               <AiOutlineHome className="size-6" />
               <span className="pl-4 font-semibold font-marquis text-[18px]">
@@ -42,7 +42,7 @@ const Responsive = () => {
               onClick={handleNav}
               href="#home"
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
-             bg-custom-color/45 p-2 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
+             bg-custom-color/45 p-[0.8rem] m-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               <BsInfoLg className="size-6" />
               <span className="pl-4 font-semibold font-marquis text-[18px]">
@@ -53,7 +53,7 @@ const Responsive = () => {
               onClick={handleNav}
               href="#home"
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
-             bg-custom-color/45 p-2 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
+             bg-custom-color/45 p-[0.8rem] m-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               <BiSearch className="size-6" />
               <span className="pl-4 font-semibold font-marquis text-[18px]">
@@ -64,7 +64,7 @@ const Responsive = () => {
               onClick={handleNav}
               href="#home"
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
-             bg-custom-color/45 p-2 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
+             bg-custom-color/45 p-[0.8rem] m-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               <LuNewspaper className="size-6" />
               <span className="pl-4 font-semibold font-marquis text-[18px]">
@@ -75,7 +75,7 @@ const Responsive = () => {
               onClick={handleNav}
               href="#home"
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
-             bg-custom-color/45 p-2 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
+             bg-custom-color/45 p-[0.8rem] m-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               <RiGraduationCapLine className="size-6" />
               <span className="pl-4 font-semibold font-marquis text-[18px]">
@@ -86,7 +86,7 @@ const Responsive = () => {
               onClick={handleNav}
               href="#home"
               className="w-[80%] flex text-black items-center justify-center text-center no-underline rounded-full
-             bg-custom-color/45 p-2 m-3 cursor-pointer hover:scale-110 ease-in duration-200"
+             bg-custom-color/45 p-[0.8rem] m-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               <FiMail className="size-6" />
               <span className="pl-4 font-semibold font-marquis text-[18px]">
