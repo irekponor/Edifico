@@ -16,28 +16,19 @@ const Abouttext = ({ img, title, title1, title2, title3 }) => {
           {title1}
         </h3>
         <p className="font-name pb-0 pt-2 max-md:hidden text-white text-center">
-          The Fico theatre is the movie centre of the university where students
-          gather to watch their favourite tv shows or movies. It was also ranked
-          best cinema for july 2024 according to Marquis Movie Houses (MMH)
-          Ranking
+          broooooo
         </p>
         <h3 className="font-name font-semibold text-white text-center pt-3">
           {title2}
         </h3>
         <p className="font-name pb-0 pt-2 max-md:hidden text-white text-center">
-          The Fico theatre is the movie centre of the university where students
-          gather to watch their favourite tv shows or movies. It was also ranked
-          best cinema for july 2024 according to Marquis Movie Houses (MMH)
-          Ranking
+          giuuuuu
         </p>
         <h3 className="font-name font-semibold text-white text-center pt-3">
           {title3}
         </h3>
         <p className="font-name pb-0 pt-2 max-md:hidden text-white text-center">
-          The Fico theatre is the movie centre of the university where students
-          gather to watch their favourite tv shows or movies. It was also ranked
-          best cinema for july 2024 according to Marquis Movie Houses (MMH)
-          Ranking
+          Tgreeee
         </p>
       </div>
     </div>
