@@ -10,35 +10,35 @@ const Contact = () => {
         <h1 className="font-marquis py-4 text-4xl font-bold text-custom-color">
           Connect with us
         </h1>
-        <div className="max-md:flex">
-          <a href="" className="flex pt-4 max-md:pl-3">
+        <div className="max-md:flex flex">
+          <a href="" className="flex pt-4 max-md:pl-3 pl-10">
             <FaFacebook
               className="text-custom-color cursor-pointer"
               size={20}
             />
           </a>
-          <a href="" className="flex pt-4 max-md:pl-3">
+          <a href="" className="flex pt-4 max-md:pl-3 pl-10">
             <SiInstagram
               className="text-custom-color cursor-pointer"
               size={20}
             />
           </a>
-          <a href="" className="flex pt-4 max-md:pl-3">
+          <a href="" className="flex pt-4 max-md:pl-3 pl-10">
             <FaLinkedin
               className="text-custom-color cursor-pointer"
               size={20}
             />
           </a>
-          <a href="" className="flex pt-4 max-md:pl-3">
+          <a href="" className="flex pt-4 max-md:pl-3 pl-10">
             <IoLogoYoutube
               className="text-custom-color cursor-pointer"
               size={20}
             />
           </a>
-          <a href="" className="flex pt-4 max-md:pl-3">
+          <a href="" className="flex pt-4 max-md:pl-3 pl-10">
             <BsTwitter className="text-custom-color cursor-pointer" size={20} />
           </a>
-          <a href="" className="flex pt-4 max-md:pl-3">
+          <a href="" className="flex pt-4 max-md:pl-3 pl-10">
             <FaTiktok className="text-custom-color cursor-pointer" size={20} />
           </a>
         </div>
