@@ -63,7 +63,7 @@ const Contact = () => {
           </p>
         </div>
       </div>
-      <p className="text-white text-[18px] pb-10 text-center items-center font-marquis">
+      <p className="text-custom-color text-[18px] pt-10 text-center items-center font-marquis">
         2024 All Rights Reserved
       </p>
     </div>
