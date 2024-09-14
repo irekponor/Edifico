@@ -10,28 +10,38 @@ const Contact = () => {
         <h1 className="font-marquis py-4 text-4xl font-bold text-custom-color">
           Connect with us
         </h1>
-        <div></div>
-        <a href="" className="flex pt-4">
-          <FaFacebook className="text-custom-color cursor-pointer" size={20} />
-        </a>
-        <a href="" className="flex pt-4">
-          <SiInstagram className="text-custom-color cursor-pointer" size={20} />
-        </a>
-        <a href="" className="flex pt-4">
-          <FaLinkedin className="text-custom-color cursor-pointer" size={20} />
-        </a>
-        <a href="" className="flex pt-4">
-          <IoLogoYoutube
-            className="text-custom-color cursor-pointer"
-            size={20}
-          />
-        </a>
-        <a href="" className="flex pt-4">
-          <BsTwitter className="text-custom-color cursor-pointer" size={20} />
-        </a>
-        <a href="" className="flex pt-4">
-          <FaTiktok className="text-custom-color cursor-pointer" size={20} />
-        </a>
+        <div className="max-md:flex">
+          <a href="" className="flex pt-4">
+            <FaFacebook
+              className="text-custom-color cursor-pointer"
+              size={20}
+            />
+          </a>
+          <a href="" className="flex pt-4">
+            <SiInstagram
+              className="text-custom-color cursor-pointer"
+              size={20}
+            />
+          </a>
+          <a href="" className="flex pt-4">
+            <FaLinkedin
+              className="text-custom-color cursor-pointer"
+              size={20}
+            />
+          </a>
+          <a href="" className="flex pt-4">
+            <IoLogoYoutube
+              className="text-custom-color cursor-pointer"
+              size={20}
+            />
+          </a>
+          <a href="" className="flex pt-4">
+            <BsTwitter className="text-custom-color cursor-pointer" size={20} />
+          </a>
+          <a href="" className="flex pt-4">
+            <FaTiktok className="text-custom-color cursor-pointer" size={20} />
+          </a>
+        </div>
       </div>
       <div className="mt-10 pl-28 pr-16 grid gap-16 sm:grid-cols-3">
         <div>
