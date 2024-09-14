@@ -8,11 +8,9 @@ const Abouttext3 = ({ img, title3 }) => {
         </h3>
         <p className="font-name pb-0 pt-2 text-white text-center">
           The Fico Chapel is our university's spiritual hub, offering a peaceful
-          and inclusive space for worship, reflection, and community. This
-          beautiful chapel features stunning architecture, serene gardens, and a
-          variety of spiritual resources, making it the perfect spot for
-          students to connect with their faith, find solace, and grow
-          spiritually.
+          and inclusive space for worship, reflection, and community. Making it
+          the perfect spot for students to connect with their faith, find
+          solace, and grow spiritually.
         </p>
       </div>
     </div>
