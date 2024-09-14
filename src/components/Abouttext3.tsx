@@ -6,7 +6,7 @@ const Abouttext3 = ({ img, title3 }) => {
         <h3 className="font-name font-semibold text-white text-center pt-3">
           {title3}
         </h3>
-        <p className="font-name pb-0 pt-2 text-white text-center">
+        <p className="font-name pb-0 pt-2 max-md:hidden text-white text-center">
           The Fico Chapel is our university's spiritual hub, offering a peaceful
           and inclusive space for worship, reflection, and community. Making it
           the perfect spot for students to connect with their faith, find

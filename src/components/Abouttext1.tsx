@@ -6,7 +6,7 @@ const Abouttext1 = ({ img, title1 }) => {
         <h3 className="font-name font-semibold text-white text-center pt-3">
           {title1}
         </h3>
-        <p className="font-name pb-0 pt-2 text-white text-center">
+        <p className="font-name pb-0 pt-2 max-md:hidden text-white text-center">
           The Fico Sports Center is our university's athletic hub, featuring
           state-of-the-art facilities, Ranked Best University Sports Facility
           for July 2024 by Sports Facilities Magazine (SFM), it's the perfect

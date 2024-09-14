@@ -6,7 +6,7 @@ const Abouttext2 = ({ img, title2 }) => {
         <h3 className="font-name font-semibold text-white text-center pt-3">
           {title2}
         </h3>
-        <p className="font-name pb-0 pt-2 text-white text-center">
+        <p className="font-name pb-0 pt-2 max-md:hidden text-white text-center">
           The Fico Mall is our university's retail hub, featuring a diverse
           range of stores, restaurants, and entertainment options. Ranked Best
           University Mall for July 2024 by Retail Insights Magazine (RIM), it's
