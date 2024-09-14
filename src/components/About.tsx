@@ -15,9 +15,9 @@ const About = () => {
       </p>
       <div className="pl-16 pr-16 grid gap-16 sm:grid-cols-2">
         <Abouttext img={movie} title="Fico Theatre" />
-        <Abouttext img={ball} title="Fico Sports Center" />
-        <Abouttext img={mall} title="Fico Mall" />
-        <Abouttext img={church} title="Fico Church" />
+        <Abouttext img={ball} title1="Fico Sports Center" />
+        <Abouttext img={mall} title2="Fico Mall" />
+        <Abouttext img={church} title3="Fico Church" />
       </div>
     </div>
   );
