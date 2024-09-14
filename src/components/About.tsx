@@ -1,5 +1,6 @@
 import movie from "../assets/movie.jfif";
 import Abouttext from "./Abouttext";
+import Abouttext1 from "./Abouttext1";
 import ball from "../assets/ball.jfif";
 import mall from "../assets/mall.jfif";
 import church from "../assets/church.jfif";
@@ -15,7 +16,7 @@ const About = () => {
       </p>
       <div className="pl-16 pr-16 grid gap-16 sm:grid-cols-2">
         <Abouttext img={movie} title="Fico Theatre" />
-        <Abouttext img={ball} title="Fico Sports Center" />
+        <Abouttext1 img={ball} title1="Fico Sports Center" />
         <Abouttext img={mall} title="Fico Mall" />
         <Abouttext img={church} title="Fico Church" />
       </div>
