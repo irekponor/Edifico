@@ -28,16 +28,22 @@ const Testimonials = () => {
         </p>
         <Slider {...settings}>
           {data.map((d) => (
-            <div className="bg-white h-[550px] rounded-xl">
-              <div className="h-56 rounded-t-xl bg-white flex justify-center items-center">
-                <p className="h-44 w-44 rounded-[340px]">{d.img}</p>
+            <div className="bg-white h-[550px] w-full rounded-xl">
+              <div className="h-56 max-md:h-0 rounded-t-xl bg-white flex justify-center items-center">
+                <p className="h-44 w-44 rounded-[340px] max-md:hidden">
+                  {d.img}
+                </p>
               </div>
               <div className="flex flex-col justify-center items-center gap-4 p-4">
-                <p className="font-marquis font-semibold text-black">
+                <p className="font-marquis font-semibold text-black max-md:m-0">
                   {d.person}
                 </p>
-                <p className="font-marquis text-black">{d.degree}</p>
-                <p className="font-name text-black">{d.details}</p>
+                <p className="font-marquis text-black max-md:hidden">
+                  {d.degree}
+                </p>
+                <p className="font-name text-black max-md:mt-0 max-md:text-center">
+                  {d.details}
+                </p>
               </div>
             </div>
           ))}
