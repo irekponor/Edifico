@@ -17,7 +17,7 @@ const Responsive = () => {
       <AiOutlineMenu
         size={20}
         onClick={handleNav}
-        className="text-white absolute top-4 right-4 z-[99] md:hidden"
+        className="text-white absolute top-4 right-4 z-[99] xl:hidden"
       />
       {nav ? (
         <div>
