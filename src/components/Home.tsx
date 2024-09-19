@@ -19,7 +19,7 @@ const Home = () => {
               <h4 className="font-title text-white pl-2">Edifico</h4>
             </div>
             <div>
-              <div className="mr-14 flex justify-between">
+              <div className="mr-14 flex justify-between max-xl:hidden">
                 <a
                   href="#home"
                   className="no-underline text-white p-3 justify-between font-semibold font-title text-[18px]"
