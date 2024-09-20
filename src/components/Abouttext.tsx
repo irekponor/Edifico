@@ -22,4 +22,4 @@ const AboutText: React.FC<AboutTextProps> = ({ img, title }) => {
   );
 };
 
-export default Abouttext;
+export default AboutText;
