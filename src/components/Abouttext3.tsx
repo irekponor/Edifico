@@ -1,4 +1,9 @@
-const Abouttext3 = ({ img, title3 }) => {
+interface AboutTextProps {
+  img: string;
+  title3: string;
+}
+
+const Abouttext3: React.FC<AboutTextProps> = ({ img, title3 }) => {
   return (
     <div className="relative flex items-center justify-center h-auto w-full rounded-xl group hover:bg-gradient-to-l from-gray-200 to-custom-color">
       <img src={img} alt="/" className="rounded-xl group-hover:opacity-10" />
