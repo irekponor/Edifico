@@ -15,7 +15,7 @@ const AboutText: React.FC<AboutTextProps> = ({ img, title }) => {
           The Fico theatre is the movie centre of the university where students
           gather to watch their favourite tv shows or movies. It was also ranked
           best cinema for july 2024 according to Marquis Movie Houses (MMH)
-          Ranking
+          Ranking.
         </p>
       </div>
     </div>
