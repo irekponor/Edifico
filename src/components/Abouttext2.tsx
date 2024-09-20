@@ -15,7 +15,7 @@ const Abouttext2: React.FC<AboutTextProps> = ({ img, title2 }) => {
           The Fico Mall is our university's retail hub, featuring a diverse
           range of stores, restaurants, and entertainment options. Ranked Best
           University Mall for July 2024 by Retail Insights Magazine (RIM), it's
-          the perfect spot for students to shop, dine, and socialize."
+          the perfect spot for students to shop, dine, and socialize.
         </p>
       </div>
     </div>
