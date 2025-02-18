@@ -75,7 +75,7 @@ const Contact = () => {
         </div>
       </div>
       <p className="text-custom-color text-[18px] pt-10 text-center items-center font-marquis">
-        2024 All Rights Reserved
+        2025 All Rights Reserved
       </p>
     </div>
   );
